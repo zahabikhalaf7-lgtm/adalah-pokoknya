@@ -15,11 +15,11 @@ export const Stats: React.FC = () => {
         {/* Large Stat (Left) */}
         <div className="lg:w-1/3 text-center lg:text-left">
           <h2 className="text-[120px] leading-none font-black text-brand-red">
-            12
+            17
           </h2>
-          <p className="text-2xl font-bold text-white mt-2">Years Experience</p>
+          <p className="text-2xl font-bold text-white mt-2">Tahun Pengalaman Hidup</p>
           <p className="text-brand-gray mt-4 max-w-xs mx-auto lg:mx-0">
-            Working with global brands and startups to define the future of digital design.
+            Memiliki semangat belajar tinggi dan terus mengembangkan kemampuan diri.
           </p>
         </div>
 

@@ -28,12 +28,7 @@ export const Navbar: React.FC = () => {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
-        {/* Logo */}
-        <a href="#" className="flex items-center gap-2 group">
-          <Hexagon className="text-brand-red w-8 h-8 fill-transparent group-hover:fill-brand-red/20 transition-all" strokeWidth={2.5} />
-          <span className="text-xl font-bold tracking-wider">AGATHA</span>
-        </a>
-
+        
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (

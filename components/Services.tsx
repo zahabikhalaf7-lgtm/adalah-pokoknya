@@ -1,24 +1,24 @@
 import React from 'react';
-import { Layers, Smartphone, PenTool, ArrowRight } from 'lucide-react';
+import { Layers, Smartphone, PenTool, ArrowRight, Code2Icon, PaintbrushIcon, BookAIcon, BookIcon, BookUpIcon, BookOpenIcon, BookOpenTextIcon } from 'lucide-react';
 import { Service } from '../types';
 
 const services: Service[] = [
   {
-    title: 'UI Design',
-    description: 'Creating intuitive and visually appealing interfaces that users love to interact with.',
-    icon: <Layers size={40} />,
+    title: 'Coding',
+    description: 'Saya memiliki keahlian coding menggunakan Python, HTML, CSS, dan JavaScript dengan logika pemrograman yang baik.',
+    icon: <Code2Icon size={40} />,
     isHighlighted: false,
   },
   {
     title: 'Product Design',
-    description: 'From concept to launch, I help build digital products that solve real problems.',
-    icon: <Smartphone size={40} />,
+    description: 'Saya memiliki keahlian dalam desain grafis dengan kemampuan mengatur warna, layout, dan komposisi visual.',
+    icon: <PaintbrushIcon size={40} />,
     isHighlighted: true,
   },
   {
-    title: 'Branding',
-    description: 'Crafting unique brand identities that resonate with your target audience.',
-    icon: <PenTool size={40} />,
+    title: 'Book',
+    description: 'Saya memiliki keahlian dalam menulis dengan bahasa yang jelas, rapi, dan mudah dipahami.',
+    icon: <BookOpenTextIcon size={40} />,
     isHighlighted: false,
   },
 ];

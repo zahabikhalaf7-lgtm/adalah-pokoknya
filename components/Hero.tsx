@@ -17,9 +17,9 @@ export const Hero: React.FC = () => {
              <div className="absolute -top-4 -left-4 w-full h-full border-2 border-brand-red/30 rounded-2xl -z-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-500"></div>
              
              <img 
-               src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop" 
-               alt="Agatha Portrait" 
-               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+               src="components/FOTOKU.jpeg" 
+               alt="Zahabi Khalaf Portrait" 
+               className="w-full h-full object-cover hover:grayscale-0 transition-all duration-700"
              />
              
              {/* Overlay Gradient */}
@@ -30,16 +30,16 @@ export const Hero: React.FC = () => {
         {/* Right Side: Content */}
         <div className="order-1 md:order-2 flex flex-col justify-center text-left space-y-6">
           <p className="text-brand-red font-semibold tracking-widest uppercase text-sm animate-fade-in-up">
-            Hello I'm Agatha
+            Hello I'm Zahabi Khalaf
           </p>
           
           <h1 className="text-5xl md:text-7xl font-extrabold leading-tight text-white">
-            Visual <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-brand-gray">Designer</span>
+            Teknik <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-brand-gray">Informatika</span>
           </h1>
           
           <p className="text-brand-gray text-lg md:text-xl max-w-lg leading-relaxed">
-            I craft digital experiences that merge art with functionality. Specializing in UI/UX and product design that leaves a lasting impression.
+            Saya adalah seorang programmer yang memiliki minat kuat dalam pengembangan perangkat lunak dan teknologi digital. Berpengalaman dalam memahami logika program, menyusun algoritma, serta mengembangkan aplikasi sederhana. Saya memiliki semangat belajar tinggi, mampu bekerja secara mandiri maupun tim, dan siap menghadapi tantangan di bidang teknologi informasi.
           </p>
           
           <div className="pt-4">
